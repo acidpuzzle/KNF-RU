@@ -32,7 +32,7 @@ __<sys/types.h>__ ИЛИ __<sys/param.h>__, но не оба! __<sys/types.h>__ 
 __<sys/cdefs.h>__, и от него можно зависеть.
 
 ```
-#include <sys/types.h>   /* Non-local includes in brackets. */
+#include <sys/types.h>   /* Не локальное включение, угловые скобки. */
 ```
 
 Если это сетевая программа, поместите сетевые включаемые файлы рядом.
