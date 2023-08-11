@@ -13,13 +13,16 @@ Kernel source file style guide (KNF)
 /*
  * Style guide for the OpenBSD KNF (Kernel Normal Form).
  */
-
+```
+```
 /*
  * VERY important single-line comments look like this.
  */
-
+```
+```
 /* Most single-line comments look like this. */
-
+```
+```
 /*
  * Multi-line comments look like this.  Make them real sentences.
  * Fill them so they look like real paragraphs.
@@ -86,3 +89,4 @@ void function(int);
 ```
 void function(int a);
 ```
+
